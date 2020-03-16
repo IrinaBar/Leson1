@@ -41,10 +41,10 @@ public class Labyrinth {
     public Cell[] getNeighbors(Cell cell) {
         Cell[] neighbors = new Cell[0];
 
-        if (cell.getRow() == 0 && cell.getColumn() >= 1 && cell.getColumn()<width-1) {//первая строка, ряд посередине
+        if (cell.getRow() == 0 && cell.getColumn() >= 1 && cell.getColumn()<height-1) {//первая строка, ряд посередине
             neighbors = new Cell[3];
-            Cell c1 = labyrinth[cell.getRow()][cell.getColumn() - 1];
-            Cell c2 = labyrinth[cell.getRow()][cell.getColumn() + 1];
+            Cell c1 = labyrinth[cell.getColumn()][cell.getColumn() - 1];
+            Cell c2 = labyrinth[cell.getColumn()][cell.getColumn() + 1];
             Cell c3 = labyrinth[cell.getRow() + 1][cell.getColumn()];
 
             neighbors[0] = c1;
