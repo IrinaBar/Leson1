@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ca681d3-b03f-4eac-aace-ac8a9043e0eb" name="Default Changelist" comment="" />
+    <list default="true" id="0ca681d3-b03f-4eac-aace-ac8a9043e0eb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,7 +24,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\Ольга\IdeaProjects\1untitled\.idea" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1UNfnGHBsQnSfBV1FyHfI0kNFhJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="flattenPackages" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -35,6 +45,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -131,7 +142,21 @@
       <option name="presentableId" value="Default" />
       <updated>1575202146767</updated>
     </task>
+    <task id="LOCAL-00001" summary="1Commit">
+      <created>1584361274848</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584361274848</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="1Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="1Commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="515" y="43" key="#ElixirTest" timestamp="1575929564433">
@@ -142,6 +167,10 @@
     </state>
     <state x="515" y="43" key="#ElixirTest.makesInvisible/0.0.1366.728@0.0.1366.728" timestamp="1575929910594" />
     <state x="515" y="43" key="#ElixirTest/0.0.1366.728@0.0.1366.728" timestamp="1575929564433" />
+    <state x="275" y="24" key="#Notifications" timestamp="1584361344655">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="24" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1584361344655" />
     <state x="550" y="24" key="#Project_Structure" timestamp="1581539809713">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -170,6 +199,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="482" y="298" width="542" height="430" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1584359715512" />
+    <state x="306" y="0" key="CommitChangelistDialog2" timestamp="1584361271316">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="306" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584361271316" />
     <state x="235" y="95" key="FileChooserDialogImpl" timestamp="1584361081999">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -210,6 +243,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="326" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1584361050059" />
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2" timestamp="1584361279686">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1584361279686" />
     <state x="660" y="264" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1584197778304">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
