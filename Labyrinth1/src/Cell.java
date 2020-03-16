@@ -1,6 +1,6 @@
 public class Cell {
-    private final int row;
     private final int column;
+    private final int row;
     boolean wallDown;
     boolean wallRight;
     boolean visited;
@@ -18,11 +18,11 @@ public class Cell {
         return wallRight;
     }
 
-    public int getColumn() {
+    public int getRow() {
         return column;
     }
 
-    public int getRow() {
+    public int getColumn() {
         return row;
     }
 
@@ -32,5 +32,10 @@ public class Cell {
 
     public boolean isVisited() {
         return visited;
+    }
+
+    @Override
+    public String toString() {
+        return "row: " + row + " | col: " + column;
     }
 }
