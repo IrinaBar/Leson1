@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/07.01/07.01.iml" filepath="$PROJECT_DIR$/07.01/07.01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1untitled.iml" filepath="$PROJECT_DIR$/1untitled.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aufgabe4/Aufgabe4.iml" filepath="$PROJECT_DIR$/Aufgabe4/Aufgabe4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Checkdigit/CheckDigit.iml" filepath="$PROJECT_DIR$/Checkdigit/CheckDigit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CheckDigit2020/CheckDigit2020.iml" filepath="$PROJECT_DIR$/CheckDigit2020/CheckDigit2020.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Dinos/Dinos.iml" filepath="$PROJECT_DIR$/Dinos/Dinos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExamplesTests/ExamplesTests.iml" filepath="$PROJECT_DIR$/ExamplesTests/ExamplesTests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Interfaces/Interfaces.iml" filepath="$PROJECT_DIR$/Interfaces/Interfaces.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Labyrinth/Labyrinth.iml" filepath="$PROJECT_DIR$/Labyrinth/Labyrinth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Labyrinth1/Labyrinth1.iml" filepath="$PROJECT_DIR$/Labyrinth1/Labyrinth1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lotto/Lotto.iml" filepath="$PROJECT_DIR$/Lotto/Lotto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Newspaper/Newspaper.iml" filepath="$PROJECT_DIR$/Newspaper/Newspaper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ogre/Ogre.iml" filepath="$PROJECT_DIR$/Ogre/Ogre.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Seven_gnomes/Seven_gnomes.iml" filepath="$PROJECT_DIR$/Seven_gnomes/Seven_gnomes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sudoku/Sudoku.iml" filepath="$PROJECT_DIR$/Sudoku/Sudoku.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Wette1/Wette1.iml" filepath="$PROJECT_DIR$/Wette1/Wette1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Checkdigit/aufgabe 3.iml" filepath="$PROJECT_DIR$/Checkdigit/aufgabe 3.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0ca681d3-b03f-4eac-aace-ac8a9043e0eb" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="1untitled" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1UNfnGHBsQnSfBV1FyHfI0kNFhJ" />
+  <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ольга\IdeaProjects\1untitled\Labyrinth\src" />
+      <recent name="C:\Users\Ольга\IdeaProjects\1untitled\Labyrinth1\src" />
+      <recent name="C:\Users\Ольга\IdeaProjects\1untitled\Lotto\src" />
+      <recent name="C:\Users\Ольга\IdeaProjects\1untitled\Seven_gnomes\src" />
+      <recent name="C:\Users\Ольга\IdeaProjects\1untitled\CheckDigit2020\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.BoettcherLabyrinthTests">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Application" />
+      <module name="Labyrinth" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="1untitled" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="Labyrinth" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <module name="Labyrinth1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasketTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Seven_gnomes" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BasketTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BoettcherLabyrinthTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Labyrinth1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BoettcherLabyrinthTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BoettcherLabyrinthTests" />
+        <item itemvalue="Application.test" />
+        <item itemvalue="JUnit.BasketTest" />
+        <item itemvalue="Application.Application" />
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0ca681d3-b03f-4eac-aace-ac8a9043e0eb" name="Default Changelist" comment="" />
+      <created>1575202146767</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575202146767</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="515" y="43" key="#ElixirTest" timestamp="1575929564433">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="515" y="43" key="#ElixirTest.makesInvisible" timestamp="1575929910594">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="515" y="43" key="#ElixirTest.makesInvisible/0.0.1366.728@0.0.1366.728" timestamp="1575929910594" />
+    <state x="515" y="43" key="#ElixirTest/0.0.1366.728@0.0.1366.728" timestamp="1575929564433" />
+    <state x="550" y="24" key="#Project_Structure" timestamp="1581539809713">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="550" y="24" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1581539809713" />
+    <state x="642" y="121" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1575928330980">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="642" y="121" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1575928330980" />
+    <state x="95" y="114" width="1086" height="528" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1584200457015">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="95" y="114" width="1086" height="528" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1584200457015" />
+    <state x="435" y="189" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583511898997">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="435" y="189" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1583511898997" />
+    <state x="451" y="37" key="#com.intellij.ide.util.MemberChooser" timestamp="1584352949370">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="451" y="37" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1584352949370" />
+    <state x="523" y="113" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581749800419">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="523" y="113" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1581749800419" />
+    <state x="482" y="298" width="542" height="430" key="#xdebugger.evaluate" timestamp="1584359715512">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="482" y="298" width="542" height="430" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1584359715512" />
+    <state x="235" y="95" key="FileChooserDialogImpl" timestamp="1584361081999">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="235" y="95" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584361081999" />
+    <state width="1306" height="192" key="GridCell.Tab.0.bottom" timestamp="1584360175467">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1306" height="192" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584360175467" />
+    <state width="1306" height="192" key="GridCell.Tab.0.center" timestamp="1584360175467">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1306" height="192" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584360175467" />
+    <state width="1306" height="192" key="GridCell.Tab.0.left" timestamp="1584360175467">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1306" height="192" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584360175467" />
+    <state width="1306" height="192" key="GridCell.Tab.0.right" timestamp="1584360175467">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1306" height="192" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584360175467" />
+    <state width="1306" height="192" key="GridCell.Tab.1.bottom" timestamp="1584360175467">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1306" height="192" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584360175467" />
+    <state width="1306" height="192" key="GridCell.Tab.1.center" timestamp="1584360175467">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1306" height="192" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1584360175467" />
+    <state width="1306" height="192" key="GridCell.Tab.1.left" timestamp="1584360175467">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1306" height="192" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1584360175467" />
+    <state width="1306" height="192" key="GridCell.Tab.1.right" timestamp="1584360175467">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1306" height="192" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1584360175467" />
+    <state x="326" y="0" key="SettingsEditor" timestamp="1584361050059">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="326" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1584361050059" />
+    <state x="660" y="264" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1584197778304">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="660" y="264" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.728@0.0.1366.728" timestamp="1584197778304" />
+    <state x="90" y="41" width="683" height="714" key="dock-window-1" timestamp="1575983138290">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="90" y="41" width="683" height="714" key="dock-window-1/0.0.1366.728@0.0.1366.728" timestamp="1575983138290" />
+    <state x="0" y="0" width="617" height="608" key="dock-window-2" timestamp="1575807171886">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="0" width="617" height="608" key="dock-window-2/0.0.1366.728@0.0.1366.728" timestamp="1575807171886" />
+    <state x="131" y="200" width="1235" height="481" key="new project wizard" timestamp="1584197052592">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="131" y="200" width="1235" height="481" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1584197052592" />
+    <state x="495" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1584359277243">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="495" y="0" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1584359277243" />
+    <state x="339" y="157" key="run.anything.popup" timestamp="1576598755281">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="157" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1576598755281" />
+    <state x="711" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1584360132950">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="711" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1584360132950" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Seven_gnomes/src/BasketTest.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Labyrinth1/src/Labyrinth.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Dinos/src/CarnivoreTest.java</url>
+          <line>23</line>
+          <properties class="CarnivoreTest" method="TestHerbivoreAttack">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Dinos/src/CarnivoreTest.java</url>
+          <line>32</line>
+          <properties class="CarnivoreTest" method="TestCarnivoreAttack">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Wette1/src/TestWette1.java</url>
+          <line>7</line>
+          <properties class="TestWette1" method="TestLastTwo">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
