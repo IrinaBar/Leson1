@@ -15,7 +15,7 @@ public class Labyrinth {
 
     }*/
 
-    /* TEST */
+
 
     public int getWidth() {
         return width;
