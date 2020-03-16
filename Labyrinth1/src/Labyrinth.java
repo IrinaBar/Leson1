@@ -11,9 +11,7 @@ public class Labyrinth {
         this.width = width;
         this.height = height;
     }
-/*    Cell[] getNeighbors(Cell celll){
 
-    }*/
 
     public Cell[][] getLabyrinth() {
         return labyrinth;
@@ -36,7 +34,7 @@ public class Labyrinth {
         for (int i = 0; i < height; i++) {
             for (int j = 0; j < width; j++) {
                 Cell cell = new Cell(i, j);
-                //cell.visit();
+                cell.visit();
                 labyrinth[i][j] = cell;
             }
         }
@@ -113,6 +111,12 @@ public class Labyrinth {
         return neighbors;
     }
 
+
+    public Cell randomUnvisitedNeighbor(Cell cell) {
+        Cell cellNew = cell;
+        cellNew.unVisit();
+        return cellNew;
+    }
 }
 
 class Test1 {

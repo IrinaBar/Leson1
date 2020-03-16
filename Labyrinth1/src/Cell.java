@@ -38,4 +38,8 @@ public class Cell {
     public String toString() {
         return "row: " + row + " | col: " + column;
     }
+
+    public void unVisit() {
+        visited = false;
+    }
 }

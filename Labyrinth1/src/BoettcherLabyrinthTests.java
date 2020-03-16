@@ -84,9 +84,10 @@ class BoettcherLabyrinthTests {
         assertTrue(allVisited(neighbors));
     }
 
-    /*@Test
+    @Test
     void testGetReallyRandomNeighbor() {
-        Cell cell = labyrinth.getCell(5, 5); // Argumente: Zeile, Spalte
+        labyrinth.createLabyrinth();
+        Cell cell = labyrinth.getCell(5, 5); // Argumente: строка, колонка
         Cell firstNeighbor = labyrinth.randomUnvisitedNeighbor(cell);
         Cell otherNeighbor = null;
         for (int count = 0; count < 10 * LAB_WIDTH; count++) {
@@ -97,15 +98,15 @@ class BoettcherLabyrinthTests {
             }
         }
         assertNotNull(otherNeighbor, "randomUnvisitedNeighbor always seems to return the same neighbor");
-    }*/
+    }
 
-    /*@Test
+    @Test
     void testGetUnvisitedNeighbors() {
         Cell[] neighbors = labyrinth.getNeighbors(new Cell(5, 5));
         neighbors[1].visit();
         neighbors[3].visit();
         assertEquals(2, labyrinth.getNeighbors(labyrinth.getCell(5, 5), false).length);
-    }*/
+    }
 
     /*@Test
     void findRandomUnvisitedNeighborWhenAllAreVisited() {
@@ -150,7 +151,7 @@ class BoettcherLabyrinthTests {
     /*
      * Each step of the algorithm is expeted to remove one wall.
      */
-    /*@Test
+ /*   @Test
     void testNumberOfWalls() {
         labyrinth.createLabyrinth();
         assertEquals(LAB_HEIGHT * LAB_WIDTH + 1, this.numberOfwalls(labyrinth), "Number of still existing walls does not match expectation: ");
@@ -166,16 +167,16 @@ class BoettcherLabyrinthTests {
     /**
      * More than a unit test. Starts the Dijkstra machinery!
      */
-    /*@Test
+    @Test
     void testConnected() {
         Labyrinth labyrinth = new Labyrinth(LAB_HEIGHT, LAB_WIDTH);
         labyrinth.createLabyrinth();
         Dijkstra dijk = new Dijkstra(labyrinth, 0, 0);
         dijk.calcDistances();
         assertTrue(dijk.allVisited(), "Seems that not all cells are connected!");
-    }*/
+    }
 
-    /*private void visitAllBut2x2AtTheBottomRight() {
+    private void visitAllBut2x2AtTheBottomRight() {
         for (int row = 0; row < labyrinth.getHeight(); row++) {
             for (int col = 0; col < labyrinth.getWidth(); col++) {
                 if ((row < LAB_HEIGHT - 2) || (col < LAB_WIDTH - 2)) {
@@ -183,7 +184,7 @@ class BoettcherLabyrinthTests {
                 }
             }
         }
-    }*/
+    }
     
     private Cell allVisited() {
         for (int row = 0; row < labyrinth.getHeight(); row++) {
