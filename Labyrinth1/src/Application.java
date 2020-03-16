@@ -94,8 +94,8 @@ public class Application extends JPanel {
         graphics.setPaint(WAY_COLOR);
         Cell current = labyrinth.getCell(this.endRow, this.endCol);
         while (current != null) {
-            graphics.fillRect(current.getRow() * LINE_LENGTH, current.getColumn() * LINE_LENGTH, LINE_LENGTH, LINE_LENGTH);
-            current = dijkstra.getPredecessor(current.getColumn(), current.getRow());
+            graphics.fillRect(current.getColumn() * LINE_LENGTH, current.getRow() * LINE_LENGTH, LINE_LENGTH, LINE_LENGTH);
+            current = dijkstra.getPredecessor(current.getRow(), current.getColumn());
         }
     }
 

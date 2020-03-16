@@ -156,12 +156,12 @@ class BoettcherLabyrinthTests {
         assertEquals(LAB_HEIGHT * LAB_WIDTH + 1, this.numberOfwalls(labyrinth), "Number of still existing walls does not match expectation: ");
     }*/
 
-    /*@Test
+    @Test
     void testAllVisited() {
         labyrinth.createLabyrinth();
         Cell cell = allVisited();
         assertNull(cell, "Unvisited cell " + cell);
-    }*/
+    }
     
     /**
      * More than a unit test. Starts the Dijkstra machinery!

@@ -18,11 +18,11 @@ public class Cell {
         return wallRight;
     }
 
-    public int getRow() {
+    public int getColumn() {
         return column;
     }
 
-    public int getColumn() {
+    public int getRow() {
         return row;
     }
 
