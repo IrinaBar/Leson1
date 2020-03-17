@@ -52,20 +52,20 @@ class BoettcherLabyrinthTests {
     @Test
     void testNumberOfNeighbors() {
         labyrinth.createLabyrinth();
-        assertEquals(2, labyrinth.getNeighbors(new Cell(0, 0)).length);
-       assertEquals(2, labyrinth.getNeighbors(new Cell(0, LAB_WIDTH - 1)).length);
-        assertEquals(2, labyrinth.getNeighbors(new Cell(LAB_HEIGHT - 1, 0)).length);
-        assertEquals(2, labyrinth.getNeighbors(new Cell(LAB_HEIGHT - 1, LAB_WIDTH - 1)).length);
+        assertEquals(2, labyrinth.getNeighbors(new Cell(0, 0), false).length);
+       assertEquals(2, labyrinth.getNeighbors(new Cell(0, LAB_WIDTH - 1), false).length);
+        assertEquals(2, labyrinth.getNeighbors(new Cell(LAB_HEIGHT - 1, 0), false).length);
+        assertEquals(2, labyrinth.getNeighbors(new Cell(LAB_HEIGHT - 1, LAB_WIDTH - 1), false).length);
 
-        assertEquals(3, labyrinth.getNeighbors(new Cell(0, 5)).length);
-        assertEquals(3, labyrinth.getNeighbors(new Cell(5, 0)).length);
+        assertEquals(3, labyrinth.getNeighbors(new Cell(0, 5), false).length);
+        assertEquals(3, labyrinth.getNeighbors(new Cell(5, 0), false).length);
 
-        assertEquals(4, labyrinth.getNeighbors(new Cell(5, 5)).length);
+        assertEquals(4, labyrinth.getNeighbors(new Cell(5, 5), false).length);
     }
     @Test
     void testNeighborsNotNull() {
         labyrinth.createLabyrinth();
-        Cell[] neighbors = labyrinth.getNeighbors(new Cell(5, 5));
+        Cell[] neighbors = labyrinth.getNeighbors(new Cell(5, 5), false);
         for (int index = 0; index < neighbors.length; index++) {
             assertNotNull(neighbors[index], "null neighbor entry at index " + index);
         }
@@ -74,7 +74,7 @@ class BoettcherLabyrinthTests {
     @Test
     void testAllNeighborsVisited() {
         labyrinth.createLabyrinth();
-        Cell[] neighbors = labyrinth.getNeighbors(new Cell(5, 5));
+        Cell[] neighbors = labyrinth.getNeighbors(new Cell(5, 5), false);
         assertFalse(allVisited(neighbors));
         neighbors[3].visit();
         assertFalse(allVisited(neighbors));
@@ -102,13 +102,13 @@ class BoettcherLabyrinthTests {
 
     @Test
     void testGetUnvisitedNeighbors() {
-        Cell[] neighbors = labyrinth.getNeighbors(new Cell(5, 5));
+        Cell[] neighbors = labyrinth.getNeighbors(new Cell(5, 5), false);
         neighbors[1].visit();
         neighbors[3].visit();
         assertEquals(2, labyrinth.getNeighbors(labyrinth.getCell(5, 5), false).length);
     }
 
-    /*@Test
+    @Test
     void findRandomUnvisitedNeighborWhenAllAreVisited() {
         for (int row = 0; row < labyrinth.getHeight(); row++) {
             for (int col = 0; col < labyrinth.getWidth(); col++) {
@@ -116,17 +116,17 @@ class BoettcherLabyrinthTests {
             }
         }
         assertNull(labyrinth.randomUnvisitedNeighbor(labyrinth.getCell(5, 5)));
-    }*/
+    }
 
-    /*@Test
+    @Test
     void testWalkRandom() {
         visitAllBut2x2AtTheBottomRight();
         labyrinth.getCell(LAB_HEIGHT - 2, LAB_WIDTH - 2).visit();
         labyrinth.walkRandom(labyrinth.getCell(LAB_HEIGHT - 2, LAB_WIDTH - 2));
         assertNull(allVisited());
-    }*/
+    }
 
-    /*@Test
+    @Test
     void testHunt() {
         visitAllBut2x2AtTheBottomRight();
         Cell cell = labyrinth.hunt();
@@ -134,9 +134,9 @@ class BoettcherLabyrinthTests {
         boolean b = cell.getRow() == LAB_HEIGHT - 2 && cell.getColumn() == LAB_WIDTH - 2;
         assertTrue(b, "In labyrinth sized " + stringifySize(labyrinth) + " I visited all but 4x4 at bottom right and hunt returns unexpected cell \"" + cell.toString() + "\"");
         assertFalse(cell.isVisited(), "hunt must return an unvisited cell (or null)");
-    }*/
+    }
 
-    /*@Test
+    @Test
     void testHuntLeftTop() {
         labyrinth.getCell(0, 0).visit();
         Cell cell = labyrinth.hunt();
@@ -146,16 +146,16 @@ class BoettcherLabyrinthTests {
         assertEquals(1, cell.getColumn(),
                 "In labyrinth sized " + stringifySize(labyrinth) + " only 1st cell is visited; hunt should return (0, 1). Indead returned: " + stringify(cell));
         assertFalse(cell.isVisited(), "hunt must return an unvisited cell (or null)");
-    }*/
+    }
 
     /*
      * Each step of the algorithm is expeted to remove one wall.
      */
- /*   @Test
+    @Test
     void testNumberOfWalls() {
         labyrinth.createLabyrinth();
         assertEquals(LAB_HEIGHT * LAB_WIDTH + 1, this.numberOfwalls(labyrinth), "Number of still existing walls does not match expectation: ");
-    }*/
+    }
 
     @Test
     void testAllVisited() {
@@ -207,7 +207,7 @@ class BoettcherLabyrinthTests {
         return true;
     }
 
-    /*private int numberOfwalls(Labyrinth labyrinth) {
+    private int numberOfwalls(Labyrinth labyrinth) {
         int number = 0;
         for (int row = 0; row < labyrinth.getHeight(); row++) {
             for (int col = 0; col < labyrinth.getWidth(); col++) {
@@ -221,13 +221,13 @@ class BoettcherLabyrinthTests {
             }
         }
         return number;
-    }*/
+    }
 
-    /*private String stringifySize(Labyrinth labyrinth) {
+    private String stringifySize(Labyrinth labyrinth) {
         return "(" + labyrinth.getHeight() + ", " + labyrinth.getWidth() + ")";
-    }*/
+    }
 
-    /*private String stringify(Cell cell) {
+    private String stringify(Cell cell) {
         return "(" + cell.getRow() + ", " + cell.getColumn() + ")";
-    }*/
+    }
 }
