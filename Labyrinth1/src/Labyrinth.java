@@ -28,17 +28,12 @@ public class Labyrinth {
         return width;
     }
 
-    /*public Cell[][] getLabyrinth() {
-        return labyrinth;
-    }*/
+    public Cell[][] getLabyrinth() {
+        return cells;
+    }
 
     public Cell getCell(int row, int col) {
         return cells[row][col];
-    }
-
-    public void createLabyrinth() {
-
-
     }
 
     public Cell[] getNeighbors(Cell cell, boolean b) {
@@ -111,7 +106,18 @@ public class Labyrinth {
 
         return neighbors;
     }
-
+    public void createLabyrinth() {
+        int randomHeight = random.nextInt(height); //рандомом определяет начало лабиринта
+        int randomWidth = random.nextInt(width);
+        Cell start = getCell(randomHeight, randomWidth);
+        do {
+            walkRandom(start);//используй метод walkRandom
+            Cell hunted=hunt();
+            start=hunted; //начинай с клетки , которая помечена как "раненная"
+        }
+        while (hunt() != null); //рандомом выбирает клетки начала до тех пор, пока клетка, которая не посещена, и сосед, который посещен(hunt()).
+        // http://weblog.jamisbuck.org/2011/1/24/maze-generation-hunt-and-kill-algorithm.html
+    }
     public Cell randomUnvisitedNeighbor(Cell cell) {
         Cell[] uvNeighbor = getNeighbors(cell, false);
         if (uvNeighbor.length == 0) return null;
@@ -125,10 +131,10 @@ public class Labyrinth {
     public void walkRandom(Cell cell) {
         while (randomUnvisitedNeighbor(cell) != null) {
             Cell neighbor = randomUnvisitedNeighbor(cell);
-            if (cell.getColumn() < neighbor.getColumn())
-                cell.setWallRight(false);
-            if (cell.getColumn() > neighbor.getColumn())
-                neighbor.setWallRight(false);
+            if (cell.getColumn() < neighbor.getColumn()) //если клетка наша слева от клетки соседа,
+                cell.setWallRight(false);               //сломай правую стенку нашей клетки (проделай между ними проход)
+            if (cell.getColumn() > neighbor.getColumn()) //если наша клетка находится справа от клетки соседа,
+                neighbor.setWallRight(false);           //сломай правую стенку соседа и т.д.
             if (cell.getRow() > neighbor.getRow())
                 neighbor.setWallDown(false);
             if (cell.getRow() < neighbor.getRow())
@@ -151,10 +157,10 @@ public class Labyrinth {
 }
 
 
-        /*class Test1 {
+        class Test1 {
             public static void main(String[] args) {
                 Labyrinth lab = new Labyrinth(80, 90);
                 lab.createLabyrinth();
                 new PrettyPrinter(System.out).print(lab.getLabyrinth());
             }
-        }*/
+        }
